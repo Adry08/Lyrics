@@ -1,0 +1,79 @@
+#color,
+#target {
+    background-color: rgb(190, 178, 178);
+}
+
+#target {
+    padding: 50px;
+    max-width: fit-content;
+}
+
+.body {
+    min-height: 400px;
+    max-width: 500px;
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.315);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    transition: all 0.5s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.jacket {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.title {
+    font-size: large;
+    margin-right: 10px;
+    max-height: 80px;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+}
+
+.singer {
+    font-size: small;
+    margin-right: 10px;
+    max-height: 80px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.foot {
+    margin: 10px 0;
+}
+
+.app {
+    margin-top: 10px;
+    width: fit-content;
+    background-color: none;
+}
+
+.content {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo {
+    font-size: xx-large;
+}
+
+#like:hover {
+    color: red;
+    scale: 1.5;
+}
+
+.active {
+    color: red;
+}
